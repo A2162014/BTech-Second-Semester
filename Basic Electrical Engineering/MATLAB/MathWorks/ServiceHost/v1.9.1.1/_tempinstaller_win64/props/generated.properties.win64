@@ -1,0 +1,26 @@
+# This is an auto generated file
+# This file was generated using the script ../../../../install/tools/create_mci_resfile.pl
+# Generated on 11/1/2021 17:32:15 
+# Copyright 2016-2021 The MathWorks, Inc.
+
+# MathWorks Service Host Installer's executable name
+# Note: Be careful while updating this key name
+#   since MathWorks Service Host setup microservice
+#   also consumes it
+installer.executable=bin\win64\InstallMathWorksServiceHost.exe
+# MathWorks Service Host's installation root
+msh.installation.root=<BASEDIR>\MathWorks\ServiceHost\<VERSION>
+# MathWorks Service Host's metadata root
+msh.metadata.root=<BASEDIR>\MathWorks\ServiceHost
+# MathWorks Service Host's installation subroot
+msh.installation.subroot=MathWorks\ServiceHost
+# MathWorks Service Host's launcher executable name
+msh.launcher.executable=bin\win64\mlclauncher.exe
+# [Old Product] MATLAB Connector's installation root
+connector.installation.root=<BASEDIR>\MathWorks\MATLABConnector\<VERSION>
+# [Old Product] MATLAB Connector's metadata root
+connector.metadata.root=<BASEDIR>\MathWorks\MATLABConnector
+# [Old Product] MATLAB Connector's installation subroot
+connector.installation.subroot=MathWorks\MATLABConnector
+# [Old Product] MATLAB Connector's launcher executable name
+connector.launcher.executable=bin\win64\mlclauncher.exe
